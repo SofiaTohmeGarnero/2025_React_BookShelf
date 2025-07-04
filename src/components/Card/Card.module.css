@@ -1,0 +1,83 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: var(--third-color);
+  border-radius: 12px;
+  margin-bottom: 24px;
+  padding: 12px 24px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+}
+
+.book {
+  color: var(--first-color);
+  font-size: 60px;
+}
+
+.info {
+  font-size: 14px;
+}
+
+.info > h4 {
+  font-size: 20px;
+  margin: 0;
+  line-height: 24px;
+}
+.info > div {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.icons{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.action {
+  border-radius: 50px;
+  color: var(--first-color);
+  min-width: 24px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+  transition: all ease-in-out 250ms;
+}
+
+.action:hover {
+  color: var(--second-color);
+  background-color: var(--first-color);
+  cursor: pointer;
+}
+
+@media (max-width: 425px) {
+  .container{
+    justify-content: center;
+  }
+  .card {
+    flex-direction: column;
+    gap: 0;
+  }
+  .info > h4 {
+    text-align: center;
+    margin-bottom: 8px;
+  }
+  .icons{
+    justify-content: flex-start;
+    gap: 4px;
+  }
+}

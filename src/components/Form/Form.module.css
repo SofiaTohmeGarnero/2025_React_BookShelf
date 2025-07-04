@@ -1,0 +1,75 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  background-color: var(--third-color);
+  padding: 32px;
+  border-radius: 12px;
+}
+
+.yearAndGenre{
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.yearAndGenre > div{
+  width: 100%;
+}
+
+.box{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+label{
+  font-weight: bold;
+  font-size: 16px;
+}
+
+input{
+  width: 100%;
+  background-color: var(--second-color);
+  border: none;
+  border-radius: 4px;
+  margin-left: 8px;
+  color: black;
+  padding: 8px;
+  font-size: 14px;
+  outline: transparent;
+}
+
+input:valid{
+  background-color: var(--second-color);
+}
+
+.error{
+  color: red;
+  font-size: 12px;
+  margin: 4px 0 0
+}
+
+.submit{
+  padding: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: var(--first-color);
+  color: var(--third-color);
+  border: var(--third-color) solid 2px;
+  border-radius: 8px;
+  transition: all ease-in-out 200ms;
+  cursor: pointer;
+}
+
+.submit:hover{
+  background-color: var(--third-color);
+  color: var(--first-color);
+  border: var(--first-color) solid 2px;
+}
+
+@media (max-width: 720px) {
+    .yearAndGenre {
+      flex-direction: column;
+    }
+}

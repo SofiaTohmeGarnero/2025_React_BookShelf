@@ -1,0 +1,36 @@
+.gridHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.title {
+  text-decoration: underline;
+  color: #492f12;
+}
+
+.button{
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: normal;
+  color: #492f12;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  height: fit-content;
+  border-radius: 6px;
+  transition: all ease-in-out 200ms;
+  text-decoration: none;
+  padding: 0 4px;
+}
+
+.button:hover{
+  color: #dabfa1;
+  background-color: #492f12;
+}

@@ -1,0 +1,88 @@
+{
+  "books": [
+    {
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "year": "1813",
+      "genre": "Romance",
+      "id": 1
+    },
+    {
+      "id": 4,
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "year": 1890,
+      "genre": "Novel"
+    },
+    {
+      "id": 5,
+      "title": "Moby Dick",
+      "author": "Herman Melville",
+      "year": 1851,
+      "genre": "Novel"
+    },
+    {
+      "id": 6,
+      "title": "Harry Potter and the Philosopher's Stone",
+      "author": "J. K. Rowling",
+      "year": 1997,
+      "genre": "Fantasy"
+    },
+    {
+      "id": 7,
+      "title": "Sense and Sensibility",
+      "author": "Jane Austen",
+      "year": 1811,
+      "genre": "Romance"
+    },
+    {
+      "id": 8,
+      "title": "Little Women",
+      "author": "Louisa May Alcott",
+      "year": 1868,
+      "genre": "Novel"
+    },
+    {
+      "title": "A Study in Scarlet",
+      "author": "Arthur Conan Doyle",
+      "year": "1255",
+      "genre": "Novel",
+      "id": 9
+    },
+    {
+      "id": 10,
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "year": 1953,
+      "genre": "Sci-Fi"
+    },
+    {
+      "title": "Persuasion",
+      "author": "Jane Austen",
+      "year": "1817",
+      "genre": "Novel",
+      "id": 12
+    },
+    {
+      "title": "Emma",
+      "author": "Jane Austen",
+      "year": "1815",
+      "genre": "Romance",
+      "id": 13
+    },
+    {
+      "title": "Old book",
+      "author": "NN",
+      "year": "1230",
+      "genre": "Novel",
+      "id": 14
+    },
+    {
+      "title": "New",
+      "author": "NN",
+      "year": "1825",
+      "genre": "Romance",
+      "id": 15
+    }
+  ]
+}
